@@ -26,10 +26,26 @@ In this project you will create a login page and request a token from the server
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain what a token is used for.
-- [ ] What steps can you take in your web apps to keep your data secure?
-- [ ] Describe how web servers work.
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+1. Explain what a token is used for.
+
+Token authentication works by making sure that each request to a server is accompanied by a signed token which the server verifies for authenticity and only then responds to the request.
+
+2. What steps can you take in your web apps to keep your data secure?
+
+- Choose secured methods applied between client-side and server-side applications, such as Jason Web Tokens (JWT)
+- Make a list of routes needs to be secured.
+- Create protected routes.
+- Create users and user authetication by providing and managing id and password to access protected routes.
+
+3. Describe how web servers work.
+
+A web server is a computer that stores web server software and a website's component files (e.g. HTML documents, images, CSS stylesheets, and JavaScript files). It is connected to the Internet and supports physical data interchange with other devices connected to the web.
+
+When a device (a client) requests a pieces data which is hosted on a web server, the client requests the data via HTTP. When the request reaches the correct web server (hardware), the HTTP server (software) accepts request, finds the requested document (if it doesn't then a 404 response is returned), and sends it back to the client, also through HTTP.
+
+4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+GET, POST, PUT, PATCH and DELETE
 
 
 ## Project Set Up
