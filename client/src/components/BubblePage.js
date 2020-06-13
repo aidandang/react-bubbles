@@ -18,6 +18,8 @@ const BubblePage = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
+  console.log(colorList)
+
   return (
     <>
       {colorList.length > 0 && <>
